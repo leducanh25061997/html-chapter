@@ -4,105 +4,63 @@
 	<meta charset="UTF-8">
 	<title>Document</title>
 	<link rel="stylesheet" type="text/css" href="./style.css">
+	<link href="https://fonts.googleapis.com/css?family=DM+Serif+Text&display=swap" rel="stylesheet">
 </head>
 <body>
-	<header id="header" class="" style="background-color: #DCDCDC">
-		<nav class="">
-		    <ul>
-		        <li><a href="#">Trang chủ</a></li><!--
-		     --><li><a href="#">Danh mục</a></li><!--
-		     --><li><a href="#">Giới thiệu</a></li><!--
-		     --><li><a href="#">Liên hệ</a></li>
-		    </ul>
-		</nav>
-	</header><!-- /header -->
-	<main style="background-color: #FFFFE0">
-		<article>
-			<section>
-				<h1> Quà tặng cho mọi người </h1>
-   				<p> Trang web giúp bạn chọn và mua quà tặng </p>
-			</section>
-			<section>
-				<h1> Quà tặng cho mọi người </h1>
-   				<p> Trang web giúp bạn chọn và mua quà tặng </p>
-			</section>
-		</article>
-		<article>
-			<section>
-				<h1> Quà tặng cho mọi người </h1>
-   				<p> Trang web giúp bạn chọn và mua quà tặng </p>
-			</section>
-			<section>
-				<h1> Quà tặng cho mọi người </h1>
-   				<p> Trang web giúp bạn chọn và mua quà tặng </p>
-			</section>
-		</article>		
-	</main>
-	<footer style="background-color: #E8E8E8">
-		Xin chào các bạn
-	</footer>
-	<form action="/login" method="POST">       
-		<label for="username">Username:</label>    
-		<input id="username" type="text" name="username" />
-    		<label for="pass">Password:</label>    
-    		<input id="pass" type="password" name="pass" />
-    		<input type="submit" name="submit" />
-	</form>
-	<form id="my-form" action="/login" method="POST">       
-		<input id="username" type="text" name="username" />
-    		<label for="pass">Password:</label>    
-    		<input id="pass" type="password" name="pass" />
-    		<input type="submit" name="submit" />
-	</form>
-		<label for="username" form="my-form">Username:</label> 
-	<br>
-	<video src="./video/video1.mp4" width="1000" height="300" controls loop>
-		<track src="./video/phude.vtt" label="Tiếng việt" default>
-		<track src="./video/phude.vtt" label="Tiếng anh" default>
-	</video>
-	<P>Thẻ progress</P>
-	<progress value="50" max="100"></progress>
-	<br><br>
-	<form action="./https://www.youtube.com/" method="post">
-		<label for="user1">Username : </label>
-		<input type="email" name="" value="" placeholder="Mời bạn nhập địa chỉ email" id="user1"> <br>
-		<label for="pass1">Password : </label>
-		<input type="password" name="" value="" placeholder="" id="pass1"> <br>
-		<label for="name1">Họ và tên : </label>
-		<input type="text" name="" value="" placeholder="" id="name1"> <br>
-		<label for="sex">Giới tính : </label>
-		<input type="radio" name="sex" value="" placeholder=""> Nam 
-		<input type="radio" name="sex" value="" placeholder=""> Nữ 
-		<input type="radio" name="sex" value="" placeholder=""> Khác <br>
-		<label for="birth">Ngày Sinh : </label>
-		<input type="date" name="" value="" placeholder="" id="birth"> <br>
-		<label for="age">Tuổi : </label>
-		<input type="number" name="" value="0" placeholder="" id="age"> <br>
-		<input type="reset" name="" value="Reset"> <br>
-		<label for="">Xe yêu thích : </label>
-		<select name="" size="">
-			<option value="Audi">Audi</option>
-			<option value="">Honde</option>
-			<option value="">Mazda</option>
-			<option value="">Kia</option>
-			<option value="">Mercedes</option>
-			<option value="">Xe đạp</option>
-			<option value="">Xe máy</option>
-		</select>
-		<input list="Languages">
-			<datalist id="Languages">  
-				<option value="PHP">  
-				<option value="Perl">  
-				<option value="Python">  
-				<option value="Ruby">  
-				<option value="C+"> 
-		</datalist>
-
-	</form>
-	<pre><strong>A bit of semantics is in order. The thing most people dub a font is more properly a typeface. Technically, a font is a particular typeface at a particular size
-	with a specific set of decorations (underlining, italic, and so on). The distinction is honestly not that important in a digital setting. You don’t explicitly set the font in CSS.
-	You determine the font family (which is essentially a typeface), and then you modify its characteristics (creating a font as purists
-	would think of it). Still, when I’m referring to the thing that most people call a font (a file in the operating system that describes the appearance of an
-	alphabet set), I use the familiar term font</strong></pre>
+	<h1>Emphasis and Strong Emphasis</h1>
+	<p>This paragraph illustrates two main kinds of emphasis. <i>This sentence use the em tag</i>. By default, 
+	emphasis is italic.<strong>This sentence uses strong emphasis.</strong> The default formatting of 
+	strong emphasis is bold.</p>
+	<p>Of cource you can change formatting with css. This is a great example of <i>sematic</i> formatting.
+	Rather than indicating the <strong>formatting</strong> of some text,you indicate <strong>how much it is emphasized.</strong></p>
+	<p>This way, you can go back and change things, like adding color to emphasized text without the 
+	formatting commands mudding your actual text.</p>
+	<h1>Multiple Classes</h1>
+	<p class="red">This paragraph use the red card</p>
+	<p class="crpit">This paragraph uses the crpit class</p>
+	<p class="both">This paragraph uses both classes</p>	
+	<h1>Pseudo-classes and links</h1>
+	<a href="https://docs.google.com/document/d/1ZxrH5dNpu_333p1kT3cOP0goInfnDdvB5KB1puLSnuw/edit">Lịch training</a> <br>
+	<a href="https://docs.google.com/document/d/1ZxrH5dNpu_333p1kT3cOP0goInfnDdvB5KB1puLSnuw/edit">Lịch training HTML5</a> <br>
+	<a href="https://docs.google.com/document/d/1ZxrH5dNpu_333p1kT3cOP0goInfnDdvB5KB1puLSnuw/edit">Lịch training CSS3</a>
+	<div class="ex1">
+		<h1>H1 Heading</h1>
+		<h2>H2 Heading</h2>
+		<h3>H3 Heading</h3>
+	</div>
+	<nav id="mylist">
+		<ul>
+			<li><a href="" title="Facebook">Facebook</a></li>
+		</ul>
+		<ul>
+			<li><a href="" title="Instagram">Instagram</a></li>
+		</ul>
+		<ul>
+			<li><a href="" title="Youtube">Youtube</a></li>
+		</ul>
+		<ul>
+			<li><a href="" title="Mp3.zing">Mp3.zing</a></li>
+		</ul>
+	</nav>
+	<div class="ex_border">
+		<p>this has a border</p>
+	</div>
+	<div class="ex_box">
+		<div class="box1">
+			<h4>This paragraph has the default margins and padding</h4>
+		</div>
+		<div class="box2">
+			<h4>This paragraph has a margin but not padding</h4>
+		</div>
+		<div class="box3">
+			<h4>This paragraph has padding but not margin</h4>
+		</div>
+	</div>	
+	<div class="border_radius">
+		
+	</div>
+	<div class="box_shadow">
+		<h4>This is box has a shadow</h4>
+	</div>
 </body>
 </html>	

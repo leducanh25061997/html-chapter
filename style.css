@@ -6,8 +6,100 @@
 
 @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
 
-pre{
-	font-family: 'Open Sans', sans-serif;
-	color: blue;
+p{
+	margin-top: 30px;
+	font-size: 20px;
+	font-family: 'DM Serif Text', serif;
 }
 
+i{
+	background-color: yellow;
+}
+
+strong{
+	color: red;
+}
+
+h1{
+	margin-top: 10px;
+}
+
+.red , .both{
+	background-color: red;
+	color: white
+}
+
+a{
+	color: black;
+	background-color: yellow;
+}
+
+a:hover{
+	background-color: red;
+	color: white;
+}
+a:active{
+	background-color: blue;
+	color: black;
+}
+
+.ex1 {
+	text-align: center;
+}
+
+.ex1 h1 , h2 , h3{
+	background-color: yellow;
+	margin-bottom: 20px;
+}
+
+#mylist>ul:nth-child(1){
+	border: 1px solid black;
+}
+#mylist>ul:nth-child(2n){
+	border: 3px dotted blue;
+}
+
+.ex_border{
+	margin-top: 20px;
+	text-align: center;
+	border: double red;
+}
+
+.ex_box{
+	border: 5px solid red;
+	margin-top: 10px;
+}
+
+.ex_box .box1{
+	border: 2px solid black;
+	margin-top: 20px;
+}
+.ex_box .box2{
+	border: 2px solid black;
+	margin: 20px;
+}
+.ex_box .box3{
+	border: 2px solid black;
+	padding: 20px;
+}
+
+.border_radius{
+	width: 500px;
+	height: 100px;
+	margin-top: 20px;
+	background-color: red;
+	border-radius: 20px;
+}
+
+.box_shadow{
+	width: 400px;
+	height: 100px;
+	margin: 20px 0 50px 0;
+	background-color: #FAFAD2;
+	color: black;
+	box-shadow: 5px 5px 20px black;
+}
+.box_shadow h4{
+	text-align: center;
+	padding-top: 45px;
+}
